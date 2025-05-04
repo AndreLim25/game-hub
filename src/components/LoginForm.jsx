@@ -16,7 +16,7 @@ function LoginForm({ login }) {
   return (
     <form className="w-1/2 h-screen flex flex-col justify-center items-center">
       <h2 className="mb-7 font-[Poppins] font-bold text-3xl text-[#3D5AFE]">
-        Welcome <span className="text-black">Back</span>
+        Welcome <span className="text-black">Back</span> Bro
       </h2>
       <InputEmail email={email} onEmailChange={onEmailChange} />
       <InputPassword password={password} onPasswordChange={onPasswordChange} />
